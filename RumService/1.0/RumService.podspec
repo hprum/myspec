@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "RumService"
-  s.version      = "1.0"
+  s.version      = "1.1"
   s.homepage	 = "www.google.com"
   s.license	 = { 
     :type => 'Commercial',
@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   }
   s.summary      = "RumService.framework"
   s.author       = { "Ilya Levin" => "ilya.levin@hp.com" }
-  s.source   = { :git => 'https://github.com/levinil/RumService.git', :tag => '1.0' }
-  s.source_files = 'RUMService.framework/Headers/*.{h}'
-  s.preserve_paths = 'RUMService.framework/*'
+  s.source   = { :git => 'https://github.com/levinil/RumService.git', :tag => '1.1' }
+  s.source_files = 'Headers/*.{h}'
+  s.preserve_paths = '*'
   s.framework   = 'RUMService'
   s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/RUMService"' }
 end
