@@ -1,4 +1,0 @@
-myspec
-======
-
-RumService podspec file
