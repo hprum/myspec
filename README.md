@@ -1,0 +1,4 @@
+myspec
+======
+
+RumService podspec file
