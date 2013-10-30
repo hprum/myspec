@@ -11,8 +11,8 @@ Pod::Spec.new do |s|
   s.summary      = "RumService.framework"
   s.author       = { "Ilya Levin" => "ilya.levin@hp.com" }
   s.source   = { :git => 'https://github.com/levinil/RumService.git', :tag => '1.1' }
-  s.source_files = 'Headers/*.{h}'
+  s.source_files = '*'
   s.preserve_paths = '*'
-  s.framework   = 'RUMService'
+  s.framework   = 'RUMService.framework'
   s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/RUMService"' }
 end
