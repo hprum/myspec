@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'RUMService.framework/Headers/*.{h}'
   s.preserve_paths = 'RUMService.framework/*'
-  s.vendored_frameworks = 'RUMService.framework'
   s.framework   = 'RUMService'
   s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/RUMService"' }
 end
