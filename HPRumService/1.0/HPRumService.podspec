@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   }
   s.summary      = "RumService.framework"
   s.author       = { "HP" => "ilya.levin@hp.com" }
-  s.source   = { :git => 'https://github.com/levinil/RumService.git', :tag => '1.0' }
+  s.source   = { :git => 'https://github.com/hprum/RumService.git', :tag => '1.0' }
 
   s.source_files = 'RUMService.framework/Headers/*.{h}'
   s.preserve_paths = 'RUMService.framework/*'
