@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
 
   s.preserve_paths = '*'
   s.framework   = 'RUMService'
-  s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/HPRUMService"' }
+  s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/HPRumService"' }
 end
