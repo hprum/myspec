@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author       = { "HP" => "ilya.levin@hp.com" }
   s.source   = { :git => 'https://github.com/hprum/RumService.git', :tag => '1.0' }
 
-  s.preserve_paths = 'RUMService.framework/*'
+  s.preserve_paths = '*'
   s.framework   = 'RUMService'
   s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/HPRUMService"' }
 end
